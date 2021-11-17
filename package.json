@@ -3,7 +3,7 @@
   "name": "single-disk-eject",
   "title": "Single Disk Eject",
   "description": "List and choose a single disk to eject.",
-  "icon": "command-icon.png",
+  "icon": "main-command.png",
   "author": "johndturn",
   "license": "MIT",
   "commands": [
