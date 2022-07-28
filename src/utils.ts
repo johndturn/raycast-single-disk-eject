@@ -61,8 +61,9 @@ function getVolumesFromLsCommandMac(raw: string): Volume[] {
  * https://github.com/jayalfredprufrock/node-eject-media/blob/master/index.js
  */
 export async function ejectVolume(volume: Volume): Promise<void> {
+  // NOTE: Timeout of 0 should mean that it will wait infinitely
   const options = {
-    timeout: 15000,
+    timeout: 0,
   }
 
   let exePath
