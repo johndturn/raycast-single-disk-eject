@@ -1,7 +1,7 @@
 export interface Volume {
-  name: string
+  name: string;
 }
 
 export interface Preferences {
-  ignoredVolumes: string
+  ignoredVolumes: string;
 }
